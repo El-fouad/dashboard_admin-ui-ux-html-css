@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  background-color: rgb(15, 19, 34);
+}
+.grandParent {
+  margin: 2% 1% 0% 1%;
+  border-radius: 20px;
+}
+.navbar {
+  background-image: linear-gradient(
+    rgb(15, 19, 34) 50%,
+    #91d4e0 50%);
+  height: 80px;
+  width: 100%;
+  display: flex;
+  border-radius: 30px;
+}
+.nav {
+  background-color: rgb(15, 19, 34);
+  height: 80px;
+  width: 80%;
+  border-radius: 0 0 40px 0;
+}
+.child1 {
+  background-color: #91d4e0;
+  height: 500px;
+  width: 100%;
+  border-radius: 30px;
+  /* border-radius: 100px 0 0 0; */
+}
+.gb_button {
+  background-color: #91d4e0;
+  height: 80px;
+  width: 20%;
+  border-radius: 40px 30px 0  0    ;
+}
+.curve{
+  background-color: rgb(15, 19, 34);
+  height: 84.5%;
+  width: 100%;
+  border-radius: 0 0 30px 30px   ;
+}
+.curve9{
+  background-color: #91d4e0;
+  height: 100%;
+  width: 100%;
+  border-radius: 30px 0 30px 30px   ;
+}
